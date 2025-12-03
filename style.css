@@ -5,9 +5,31 @@ section {
     min-height: 450px;
 }
 #home {
-    background-image: url(leaf.jpg);
-    margin-top: 100px;
+    background-image: url(/assets/leaf.jpg);
+    background-color: #ff933aab;
+    background-blend-mode: lighten;
+    margin-top: 91px;
 }
 .progress-bar {
-    background-color: #fd7e14;
+    background-color: #fd7d14;
+}
+
+/* DIV MAX WIDTHS & CENTER */
+.about, .skills, .portfolio, .blog, .contact {
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SECTION BACKGROUND COLOR */
+#about, #portfolio, #contact {
+    background-color: #fed652;
+}
+body, .navbar {
+    background-color: #fff8e2;
+}
+
+.yellow-box {
+    width: 215px;
+    height: 58px;
 }
